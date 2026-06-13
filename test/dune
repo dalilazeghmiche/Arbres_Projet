@@ -1,0 +1,25 @@
+(test
+ (name test_remy_prot)
+ (modules test_remy_prot)
+ (libraries ouv))
+
+(test
+ (name test_remy_opt)
+ (modules test_remy_opt)
+ (libraries ouv))
+
+(test
+ (name dot)
+ (modules dot)
+ (libraries ouv))
+
+(test
+ (name test_abr)
+ (modules test_abr)
+ (libraries ouv))
+
+
+(test
+ (name experiment)
+ (modules experiment)
+ (libraries ouv unix))
